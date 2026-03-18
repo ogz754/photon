@@ -1,7 +1,7 @@
 {
   "package": "net.caffeinemc.mods.sodium.mixin",
   "required": true,
-  "compatibilityLevel": "JAVA_17",
+  "compatibilityLevel": "JAVA_21",
   "plugin": "net.caffeinemc.mods.sodium.mixin.SodiumMixinPlugin",
   "injectors": {
     "defaultRequire": 1
@@ -80,6 +80,7 @@
     "workarounds.context_creation.WindowMixin",
     "workarounds.context_creation.RenderSystemMixin",
     "workarounds.event_loop.RenderSystemMixin",
-    "workarounds.window_minimized_state.MinecraftMixin"
+    "workarounds.window_minimized_state.MinecraftMixin",
+    "features.memory.BlockStateCacheMixin"
   ]
 }
